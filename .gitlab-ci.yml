@@ -1,6 +1,3 @@
-include:
-  - template: Security/Container-Scanning.gitlab-ci.yml
-
 docker-build-master:
   # Official docker image.
   image: docker:latest
